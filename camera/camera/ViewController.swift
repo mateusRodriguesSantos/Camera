@@ -188,8 +188,8 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,UINavigat
         }
         
         
-//       print(info[UIImagePickerController.InfoKey.imageURL])
-//        print("Imagem url \(self.imagemURL)")
+       print(info[UIImagePickerController.InfoKey.imageURL])
+        print("Imagem url \(self.imagemURL)")
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
